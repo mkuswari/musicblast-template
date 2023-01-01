@@ -35,6 +35,31 @@ body {
         }
     }
 
+    .action_button {
+        margin-top: 20px;
+
+        .btn_action {
+            background-color: $primaryBlue;
+            color: $white;
+            padding: 16px 32px;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 20px;
+            border-radius: 6px;
+            margin-right: 10px;
+        }
+
+        .btn_action_outline {
+            border: 2px solid $primaryBlue;
+            color: $primaryBlue;
+            padding: 16px 32px;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 20px;
+            border-radius: 6px;
+        }
+    }
+
     .hero_section {
         background-image: url(../images/bg/bg_hero_pattern.png);
         background-repeat: no-repeat;
@@ -45,31 +70,6 @@ body {
             font-size: 64px;
             font-weight: 700;
             line-height: 77px;
-        }
-
-        .action_button {
-            margin-top: 20px;
-
-            .btn_action {
-                background-color: $primaryBlue;
-                color: $white;
-                padding: 16px 32px;
-                font-size: 15px;
-                font-weight: 400;
-                line-height: 20px;
-                border-radius: 6px;
-                margin-right: 10px;
-            }
-
-            .btn_action_outline {
-                border: 2px solid $primaryBlue;
-                color: $primaryBlue;
-                padding: 16px 32px;
-                font-size: 15px;
-                font-weight: 400;
-                line-height: 20px;
-                border-radius: 6px;
-            }
         }
 
         .img_wrapper {
@@ -288,6 +288,24 @@ body {
         }
     }
 
+    .store_section {
+        .store_wrapper {
+            padding: 50px;
+            border: 1px solid $gray100;
+            min-height: 180px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .action_button {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
 
 }
 
@@ -298,6 +316,32 @@ body {
             padding: 40px 0;
         }
 
+        .action_button {
+            margin-top: 10px;
+            text-align: center;
+
+            .btn_action {
+                background-color: $primaryBlue;
+                color: $white;
+                padding: 10px 26px;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+                border-radius: 6px;
+                margin-right: 6px;
+            }
+
+            .btn_action_outline {
+                border: 2px solid $primaryBlue;
+                color: $primaryBlue;
+                padding: 10px 26px;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+                border-radius: 6px;
+            }
+        }
+
         .hero_section {
             background-size: contain;
             background-position-y: 300px;
@@ -306,32 +350,6 @@ body {
                 font-size: 32px;
                 line-height: 55px;
                 text-align: center;
-            }
-
-            .action_button {
-                margin-top: 10px;
-                text-align: center;
-
-                .btn_action {
-                    background-color: $primaryBlue;
-                    color: $white;
-                    padding: 10px 26px;
-                    font-size: 14px;
-                    font-weight: 400;
-                    line-height: 20px;
-                    border-radius: 6px;
-                    margin-right: 6px;
-                }
-
-                .btn_action_outline {
-                    border: 2px solid $primaryBlue;
-                    color: $primaryBlue;
-                    padding: 10px 26px;
-                    font-size: 14px;
-                    font-weight: 400;
-                    line-height: 20px;
-                    border-radius: 6px;
-                }
             }
 
             .img_wrapper {
