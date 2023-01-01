@@ -1,0 +1,335 @@
+$white: #fff;
+$primaryBlue: #0BB0F0;
+$neutralGrey: #717171;
+$gray100: #E1E1E1;
+$gray50: #F1F1F1;
+$gray500: #717171;
+$grayDarker: #1F1F1F;
+$indigo: #4B61DD;
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+    section {
+        padding: 80px 0;
+    }
+
+    .navbar {
+        background-color: $white;
+        padding: 20px;
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+
+        .nav-item {
+            margin-right: 30px;
+            color: $neutralGrey;
+
+            .active {
+                color: $primaryBlue;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .hero_section {
+        background-image: url(../images/bg/bg_hero_pattern.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: auto;
+
+        .main_title {
+            font-size: 64px;
+            font-weight: 700;
+            line-height: 77px;
+        }
+
+        .action_button {
+            margin-top: 20px;
+
+            .btn_action {
+                background-color: $primaryBlue;
+                color: $white;
+                padding: 16px 32px;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 20px;
+                border-radius: 6px;
+                margin-right: 10px;
+            }
+
+            .btn_action_outline {
+                border: 2px solid $primaryBlue;
+                color: $primaryBlue;
+                padding: 16px 32px;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 20px;
+                border-radius: 6px;
+            }
+        }
+
+        .img_wrapper {
+            img {
+                width: 100%;
+            }
+        }
+
+        .download_action {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    }
+
+    .feature_section {
+        .feature_wrapper {
+            border: 1px solid $gray100;
+            padding: 50px;
+            border-radius: 15px;
+            margin: 50px;
+            text-align: center;
+            min-height: 285px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .feature_item {
+                img {
+                    width: 40px;
+                    height: 40px;
+                }
+
+                h3 {
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    color: $grayDarker;
+                    margin-top: 25px;
+                }
+            }
+        }
+
+        .action_wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+
+            .btn_learn_more {
+                background-color: $indigo;
+                color: $white;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 20px;
+                padding: 16px 32px;
+                border-radius: 6px;
+            }
+        }
+    }
+
+    .service_section {
+        background-color: $gray50;
+
+        .card_service_wrapper {
+            background-color: $white;
+            margin: 50px;
+            padding: 50px;
+            border-radius: 10px;
+            min-height: 312px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .card_service_item {
+                .service_image {
+                    width: 38px;
+                    margin-bottom: 20px;
+                }
+
+                h3 {
+                    font-size: 22px;
+                    line-height: 28px;
+                    font-weight: 600;
+                    color: $grayDarker;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    color: $gray500;
+                    line-height: 22px;
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+
+    .section_title {
+        text-align: center;
+        margin-bottom: 50px;
+
+        h3 {
+            font-size: 28px;
+            font-weight: 600;
+            color: $grayDarker;
+            line-height: 34px;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 400;
+            color: $gray500;
+            line-height: 24px;
+        }
+    }
+
+    .why_choose_us_section {
+        .vid_wrapper {
+            margin: 26px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+    }
+
+
+
+}
+
+@media (max-width: 576px) {
+    body {
+
+        section {
+            padding: 40px 0;
+        }
+
+        .hero_section {
+            background-size: contain;
+            background-position-y: 300px;
+
+            .main_title {
+                font-size: 32px;
+                line-height: 55px;
+                text-align: center;
+            }
+
+            .action_button {
+                margin-top: 10px;
+                text-align: center;
+
+                .btn_action {
+                    background-color: $primaryBlue;
+                    color: $white;
+                    padding: 10px 26px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    border-radius: 6px;
+                    margin-right: 6px;
+                }
+
+                .btn_action_outline {
+                    border: 2px solid $primaryBlue;
+                    color: $primaryBlue;
+                    padding: 10px 26px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    border-radius: 6px;
+                }
+            }
+
+            .img_wrapper {
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 80%;
+                }
+            }
+
+        }
+
+        .feature_section {
+            .feature_wrapper {
+                padding: 20px;
+                margin: 10px;
+                min-height: 220px;
+                display: flex;
+                justify-content: center;
+                align-items: stretch;
+
+                .feature_item {
+                    img {
+                        width: 40px;
+                        height: 40px;
+                    }
+
+                    h3 {
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        color: $grayDarker;
+                        margin-top: 18px;
+                    }
+                }
+            }
+        }
+
+        .service_section {
+            background-color: $gray50;
+
+            .card_service_wrapper {
+                background-color: $white;
+                margin: 22px;
+                padding: 34px;
+                min-height: 280px;
+
+                .card_service_item {
+                    .service_image {
+                        width: 38px;
+                        margin-bottom: 16px;
+                    }
+
+                    h3 {
+                        font-size: 18px;
+                        line-height: 28px;
+                        font-weight: 600;
+                        color: $grayDarker;
+                        margin-bottom: 10px;
+                    }
+
+                    p {
+                        color: $gray500;
+                        line-height: 20px;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+        .section_title {
+            text-align: center;
+            margin-bottom: 25px;
+
+            h3 {
+                font-size: 20px;
+                font-weight: 600;
+                color: $grayDarker;
+                line-height: 34px;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                color: $gray500;
+                line-height: 24px;
+            }
+        }
+
+    }
+}
