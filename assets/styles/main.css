@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 body section {
   padding: 80px 0;
@@ -150,6 +151,79 @@ body .why_choose_us_section .vid_wrapper {
   border-radius: 8px;
   overflow: hidden;
 }
+body .about_us_section .about_wrapper {
+  margin-left: 80px;
+}
+body .about_us_section .about_wrapper h3 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+  color: #1F1F1F;
+  margin-bottom: 20px;
+}
+body .about_us_section .about_wrapper p {
+  font-size: 17px;
+  line-height: 22px;
+  color: #1F1F1F;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+body .about_us_section .about_wrapper .list_items .item_desc h4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #1F1F1F;
+}
+body .about_us_section .about_wrapper .list_items .item_desc p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #717171;
+}
+body .visi_misi_section {
+  background-image: url(../images/bg/visi_misi_pattern.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+body .visi_misi_section .wrapper {
+  max-width: 540px;
+}
+body .visi_misi_section .wrapper .title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #1F1F1F;
+  margin-bottom: 20px;
+}
+body .visi_misi_section .wrapper .content {
+  font-size: 17px;
+  color: #717171;
+  line-height: 22px;
+  font-weight: 400;
+}
+body .visi_misi_section_2 {
+  background-image: url(../images/bg/tanggun_jawab_pattern.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+body .visi_misi_section_2 .wrapper {
+  max-width: 540px;
+}
+body .visi_misi_section_2 .wrapper .title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #1F1F1F;
+  margin-bottom: 20px;
+}
+body .visi_misi_section_2 .wrapper .content {
+  font-size: 17px;
+  color: #717171;
+  line-height: 22px;
+  font-weight: 400;
+}
 
 @media (max-width: 576px) {
   body section {
@@ -255,5 +329,53 @@ body .why_choose_us_section .vid_wrapper {
     font-weight: 400;
     color: #717171;
     line-height: 24px;
+  }
+  body .about_us_section .about_wrapper {
+    margin: 24px;
+  }
+  body .about_us_section .about_wrapper h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+  body .about_us_section .about_wrapper p {
+    font-size: 14px;
+  }
+  body .about_us_section .about_wrapper .list_items .item_desc h4 {
+    font-size: 16px;
+  }
+  body .about_us_section .about_wrapper .list_items .item_desc p {
+    font-size: 14px;
+  }
+  body .visi_misi_section .wrapper {
+    margin: 24px;
+  }
+  body .visi_misi_section .wrapper .title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #1F1F1F;
+    margin-bottom: 12px;
+  }
+  body .visi_misi_section .wrapper .content {
+    font-size: 14px;
+    color: #717171;
+    line-height: 18px;
+    font-weight: 400;
+  }
+  body .visi_misi_section_2 .wrapper {
+    margin: 24px;
+  }
+  body .visi_misi_section_2 .wrapper .title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #1F1F1F;
+    margin-bottom: 12px;
+  }
+  body .visi_misi_section_2 .wrapper .content {
+    font-size: 14px;
+    color: #717171;
+    line-height: 18px;
+    font-weight: 400;
   }
 }/*# sourceMappingURL=main.css.map */
