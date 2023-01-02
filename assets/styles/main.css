@@ -20,14 +20,14 @@ body .navbar .nav-item {
   color: #717171;
 }
 body .navbar .nav-item .active {
-  color: #0BB0F0;
+  color: #0bb0f0;
   font-weight: 500;
 }
 body .action_button {
   margin-top: 20px;
 }
 body .action_button .btn_action {
-  background-color: #0BB0F0;
+  background-color: #0bb0f0;
   color: #fff;
   padding: 16px 32px;
   font-size: 15px;
@@ -37,8 +37,8 @@ body .action_button .btn_action {
   margin-right: 10px;
 }
 body .action_button .btn_action_outline {
-  border: 2px solid #0BB0F0;
-  color: #0BB0F0;
+  border: 2px solid #0bb0f0;
+  color: #0bb0f0;
   padding: 16px 32px;
   font-size: 15px;
   font-weight: 400;
@@ -65,7 +65,7 @@ body .hero_section .download_action {
   align-items: center;
 }
 body .feature_section .feature_wrapper {
-  border: 1px solid #E1E1E1;
+  border: 1px solid #e1e1e1;
   padding: 50px;
   border-radius: 15px;
   margin: 50px;
@@ -83,7 +83,7 @@ body .feature_section .feature_wrapper .feature_item h3 {
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
-  color: #1F1F1F;
+  color: #1f1f1f;
   margin-top: 25px;
 }
 body .feature_section .action_wrapper {
@@ -93,7 +93,7 @@ body .feature_section .action_wrapper {
   margin-top: 50px;
 }
 body .feature_section .action_wrapper .btn_learn_more {
-  background-color: #4B61DD;
+  background-color: #4b61dd;
   color: #fff;
   font-size: 15px;
   font-weight: 400;
@@ -102,7 +102,7 @@ body .feature_section .action_wrapper .btn_learn_more {
   border-radius: 6px;
 }
 body .service_section {
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
 }
 body .service_section .card_service_wrapper {
   background-color: #fff;
@@ -122,7 +122,7 @@ body .service_section .card_service_wrapper .card_service_item h3 {
   font-size: 22px;
   line-height: 28px;
   font-weight: 600;
-  color: #1F1F1F;
+  color: #1f1f1f;
   margin-bottom: 20px;
 }
 body .service_section .card_service_wrapper .card_service_item p {
@@ -137,7 +137,7 @@ body .section_title {
 body .section_title h3 {
   font-size: 28px;
   font-weight: 600;
-  color: #1F1F1F;
+  color: #1f1f1f;
   line-height: 34px;
 }
 body .section_title p {
@@ -158,13 +158,13 @@ body .about_us_section .about_wrapper h3 {
   font-size: 28px;
   font-weight: 600;
   line-height: 34px;
-  color: #1F1F1F;
+  color: #1f1f1f;
   margin-bottom: 20px;
 }
 body .about_us_section .about_wrapper p {
   font-size: 17px;
   line-height: 22px;
-  color: #1F1F1F;
+  color: #1f1f1f;
   margin-bottom: 20px;
   text-align: justify;
 }
@@ -172,7 +172,7 @@ body .about_us_section .about_wrapper .list_items .item_desc h4 {
   font-size: 20px;
   font-weight: 600;
   line-height: 24px;
-  color: #1F1F1F;
+  color: #1f1f1f;
 }
 body .about_us_section .about_wrapper .list_items .item_desc p {
   font-size: 15px;
@@ -193,7 +193,7 @@ body .visi_misi_section .wrapper .title {
   font-size: 22px;
   font-weight: 600;
   line-height: 28px;
-  color: #1F1F1F;
+  color: #1f1f1f;
   margin-bottom: 20px;
 }
 body .visi_misi_section .wrapper .content {
@@ -215,7 +215,7 @@ body .visi_misi_section_2 .wrapper .title {
   font-size: 22px;
   font-weight: 600;
   line-height: 28px;
-  color: #1F1F1F;
+  color: #1f1f1f;
   margin-bottom: 20px;
 }
 body .visi_misi_section_2 .wrapper .content {
@@ -226,7 +226,7 @@ body .visi_misi_section_2 .wrapper .content {
 }
 body .store_section .store_wrapper {
   padding: 50px;
-  border: 1px solid #E1E1E1;
+  border: 1px solid #e1e1e1;
   min-height: 180px;
   display: flex;
   justify-content: center;
@@ -238,6 +238,45 @@ body .store_section .action_button {
   justify-content: center;
   align-items: center;
 }
+body .promotion_section .image_wrapper {
+  margin: 30px;
+}
+body .promotion_section .image_wrapper .image_promotion {
+  width: 100%;
+  max-height: 285px;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .team_section .team_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body .team_section .team_wrapper img {
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 50%;
+}
+body .team_section .team_wrapper h3 {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #1f1f1f;
+}
+body .team_section .team_wrapper p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #717171;
+}
 
 @media (max-width: 576px) {
   body section {
@@ -248,7 +287,7 @@ body .store_section .action_button {
     text-align: center;
   }
   body .action_button .btn_action {
-    background-color: #0BB0F0;
+    background-color: #0bb0f0;
     color: #fff;
     padding: 10px 26px;
     font-size: 14px;
@@ -258,8 +297,8 @@ body .store_section .action_button {
     margin-right: 6px;
   }
   body .action_button .btn_action_outline {
-    border: 2px solid #0BB0F0;
-    color: #0BB0F0;
+    border: 2px solid #0bb0f0;
+    color: #0bb0f0;
     padding: 10px 26px;
     font-size: 14px;
     font-weight: 400;
@@ -300,11 +339,11 @@ body .store_section .action_button {
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
-    color: #1F1F1F;
+    color: #1f1f1f;
     margin-top: 18px;
   }
   body .service_section {
-    background-color: #F1F1F1;
+    background-color: #f1f1f1;
   }
   body .service_section .card_service_wrapper {
     background-color: #fff;
@@ -320,7 +359,7 @@ body .store_section .action_button {
     font-size: 18px;
     line-height: 28px;
     font-weight: 600;
-    color: #1F1F1F;
+    color: #1f1f1f;
     margin-bottom: 10px;
   }
   body .service_section .card_service_wrapper .card_service_item p {
@@ -335,7 +374,7 @@ body .store_section .action_button {
   body .section_title h3 {
     font-size: 20px;
     font-weight: 600;
-    color: #1F1F1F;
+    color: #1f1f1f;
     line-height: 34px;
   }
   body .section_title p {
@@ -367,7 +406,7 @@ body .store_section .action_button {
     font-size: 18px;
     font-weight: 600;
     line-height: 18px;
-    color: #1F1F1F;
+    color: #1f1f1f;
     margin-bottom: 12px;
   }
   body .visi_misi_section .wrapper .content {
@@ -383,7 +422,7 @@ body .store_section .action_button {
     font-size: 18px;
     font-weight: 600;
     line-height: 18px;
-    color: #1F1F1F;
+    color: #1f1f1f;
     margin-bottom: 12px;
   }
   body .visi_misi_section_2 .wrapper .content {
@@ -391,5 +430,8 @@ body .store_section .action_button {
     color: #717171;
     line-height: 18px;
     font-weight: 400;
+  }
+  body .promotion_section .image_wrapper {
+    margin: 10px;
   }
 }/*# sourceMappingURL=main.css.map */
