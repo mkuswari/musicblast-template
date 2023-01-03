@@ -521,6 +521,15 @@ body {
     }
   }
 
+  .complete_store{
+    .logo_wrapper{
+      margin: 50px;
+      .logo_icon{
+        max-height: 75px;
+      }
+    }
+  }
+
 }
 
 @media (max-width: 576px) {
@@ -766,6 +775,15 @@ body {
         font-size: 14px;
         line-height: 22px;
         color: $gray500;
+      }
+    }
+
+    .complete_store{
+      .logo_wrapper{
+        margin: 28px;
+        .logo_icon{
+          max-height: 55px;
+        }
       }
     }
 

@@ -418,6 +418,12 @@ body .publishing .point h4 {
   line-height: 28px;
   color: #1f1f1f;
 }
+body .complete_store .logo_wrapper {
+  margin: 50px;
+}
+body .complete_store .logo_wrapper .logo_icon {
+  max-height: 75px;
+}
 
 @media (max-width: 576px) {
   body section {
@@ -603,5 +609,11 @@ body .publishing .point h4 {
     font-size: 14px;
     line-height: 22px;
     color: #717171;
+  }
+  body .complete_store .logo_wrapper {
+    margin: 28px;
+  }
+  body .complete_store .logo_wrapper .logo_icon {
+    max-height: 55px;
   }
 }/*# sourceMappingURL=main.css.map */
